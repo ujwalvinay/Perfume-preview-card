@@ -30,6 +30,10 @@ body
 
     border-radius: 15px 0 0 15px;
 }
+#banner-img-mobile
+{
+    display: none;
+}
 .text-div
 {
     width: 60%;
@@ -82,4 +86,42 @@ p
 
     margin: auto;
     text-align: center;
+}
+
+@media screen and (max-width:540px) {
+    .container
+    {
+        width: 90%;
+        flex-direction: column;
+        padding: 0%;
+        
+        margin-top: 30%;
+    }
+    #banner-img
+    {
+        display: none;
+    }
+    #banner-img-mobile
+    {
+        display: block;
+        border-radius:10px 10px 0 0;
+    }
+    .text-div
+    {
+        width: 100%;
+        margin-left: 1rem;
+        padding-top: 1rem;
+    }
+    p
+    {
+        width: 90%;
+    }
+    #cart-btn
+    {
+        text-align: center;
+    }
+    h2
+    {
+        width: 80%;
+    }
 }
