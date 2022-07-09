@@ -9,15 +9,11 @@ body
     height: 100vh;
     background-color: hsl(30, 38%, 92%);
     overflow-y: hidden;
-    
-    display:flex;
-    justify-content:center;
-    align-conent:center;
 }
 .container
 {
     display: flex;
-
+    margin-top:6%;
     padding: 0;
     gap: 2rem;
     background-color: white;
